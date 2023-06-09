@@ -15,6 +15,6 @@ struct KOC2023App: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Item.self)
+        .modelContainer(for: Ticket.self)
     }
 }

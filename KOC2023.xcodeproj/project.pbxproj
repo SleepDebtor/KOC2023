@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2403CAFF2A32CCF70076866E /* KOC2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403CAFE2A32CCF70076866E /* KOC2023App.swift */; };
-		2403CB012A32CCF70076866E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403CB002A32CCF70076866E /* Item.swift */; };
+		2403CB012A32CCF70076866E /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403CB002A32CCF70076866E /* Ticket.swift */; };
 		2403CB032A32CCF70076866E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403CB022A32CCF70076866E /* ContentView.swift */; };
 		2403CB052A32CCFA0076866E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2403CB042A32CCFA0076866E /* Assets.xcassets */; };
 		2403CB092A32CCFA0076866E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2403CB082A32CCFA0076866E /* Preview Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		2403CAFB2A32CCF70076866E /* KOC2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOC2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2403CAFE2A32CCF70076866E /* KOC2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOC2023App.swift; sourceTree = "<group>"; };
-		2403CB002A32CCF70076866E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2403CB002A32CCF70076866E /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		2403CB022A32CCF70076866E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2403CB042A32CCFA0076866E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2403CB062A32CCFA0076866E /* KOC2023.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KOC2023.entitlements; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				2403CAFE2A32CCF70076866E /* KOC2023App.swift */,
-				2403CB002A32CCF70076866E /* Item.swift */,
+				2403CB002A32CCF70076866E /* Ticket.swift */,
 				2403CB022A32CCF70076866E /* ContentView.swift */,
 				2403CB042A32CCFA0076866E /* Assets.xcassets */,
 				2403CB062A32CCFA0076866E /* KOC2023.entitlements */,
@@ -264,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2403CB012A32CCF70076866E /* Item.swift in Sources */,
+				2403CB012A32CCF70076866E /* Ticket.swift in Sources */,
 				2403CAFF2A32CCF70076866E /* KOC2023App.swift in Sources */,
 				2403CB032A32CCF70076866E /* ContentView.swift in Sources */,
 			);

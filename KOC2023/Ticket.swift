@@ -9,9 +9,12 @@ import Foundation
 import SwiftData
 
 @Model
-final class Item {
+final class Ticket {
     var timestamp: Date
-    
+	var number: Int
+	var cost: Decimal = 5.00
+	var selected: Bool = false
+	
     init(timestamp: Date) {
         self.timestamp = timestamp
     }
